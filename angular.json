@@ -14,6 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/weather-app",
+            
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f31aebfe-2b69-4055-9d1d-793a293a152e"
   }
 }
